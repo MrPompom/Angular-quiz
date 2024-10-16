@@ -9,7 +9,7 @@ import { Router } from "@angular/router";
 })
 export class CategorieComponent implements OnInit {
 
-  filteredCategories: { id: string, name: string }[] = [];
+  filteredCategories: { id: number, name: string }[] = [];
   categories: any[] = this.quizService.categorieList;
   searchQuery: string = '';
 
