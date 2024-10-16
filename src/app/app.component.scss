@@ -9,6 +9,8 @@
 .main {
   @apply flex-1 p-8;
   font-family: "Righteous", sans-serif;
+  color: rgb(4, 94, 160);
+
 
   h2 {
     font-family: "Righteous", sans-serif !important;
@@ -16,3 +18,10 @@
   } 
 }
 
+
+.btn-poke {
+  font-family: "Righteous", sans-serif;
+  background-color: rgb(4 94 160);
+  color: rgb(255 204 1);
+
+}

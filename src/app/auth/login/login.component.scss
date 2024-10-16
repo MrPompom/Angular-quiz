@@ -17,6 +17,8 @@
   }
 
   &_register-link {
-    @apply text-violet-500 font-bold hover:underline;
+    @apply font-bold hover:underline;     
+    color: rgb(4, 94, 160);
+
   }
 }

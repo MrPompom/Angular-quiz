@@ -12,10 +12,12 @@
   &_form {
     @apply my-4;
     label {
-      @apply mr-2 text-violet-500 font-bold;
+      @apply mr-2 font-bold;
+      color: rgb(4, 94, 160);
     }
     input {
-      @apply border border-violet-500 px-4 py-2 rounded mr-2;
+      @apply border px-4 py-2 rounded mr-2;
+      border-color: rgb(4, 94, 160);
     }
   }
 

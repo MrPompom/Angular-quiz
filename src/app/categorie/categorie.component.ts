@@ -40,4 +40,8 @@ export class CategorieComponent implements OnInit {
   goToQuizz(id: number) {
     this.router.navigate(['/quiz', id]);
   }
+
+  reset() {
+    this.searchQuery= "";
+  }
 }

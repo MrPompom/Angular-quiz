@@ -1,6 +1,7 @@
 .quiz {
     &_title {
       @apply text-2xl font-bold text-center mb-4;
+      color: rgb(4, 94, 160);
     }
   
     &_reset {
@@ -28,13 +29,20 @@
     font-size: 16px;
     border: 2px solid #ccc;
     border-radius: 25px;
+    color: rgb(255, 204, 1);
     transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     outline: none;
   
     &:focus {
-      border-color: #5a9;  // Changement de la couleur de la bordure
-      background-color: #65adec; // Couleur de fond lors de la saisie
+      color : (255, 204,rgb 1);
+      border-color: rgb(255, 204, 1);  // Changement de la couleur de la bordure
+      background-color: rgb(4, 94, 160); // Couleur de fond lors de la saisie
       box-shadow: 0 0 8px rgba(90, 153, 90, 0.5); // Ombre douce autour de l'input
+     
+      &::placeholder {
+        color: white;
+        font-style: italic;
+      }
     }
   
     &::placeholder {
@@ -58,4 +66,24 @@
       }
     }
   }
+
+
+  .categorie {
+    &_container {
+      @apply flex flex-col items-center my-4 p-12  rounded-lg w-full;
+      background-color: rgb(4, 94, 160);
+      font-size: 1.5em;
+      color: white;
+    }
   
+    &_label {
+      @apply text-lg mb-6;
+    }
+  }
+  
+  .reset {
+    color: rgb(4, 94, 160);
+    font-style: italic;
+    font-size: 13px;
+    margin: auto;
+  }

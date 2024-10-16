@@ -13,7 +13,7 @@ body {
 .btn {
   @apply bg-violet-500 px-4 py-2 rounded shadow hover:bg-violet-700 text-white;
   span {
-    @apply text-violet-200;
+    color: rgb(4, 94, 160);
   }
 
   &--outline {
