@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :host {
   @apply h-full w-full flex flex-col;
 }
 
 .main {
   @apply flex-1 p-8;
+  font-family: "Righteous", sans-serif;
+
+  h2 {
+    font-family: "Righteous", sans-serif !important;
+    color: red;
+  }
 }
+

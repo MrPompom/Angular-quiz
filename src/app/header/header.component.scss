@@ -1,6 +1,8 @@
-.header {
-  @apply bg-violet-500 text-white p-4 flex justify-between items-center;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+.header {
+  @apply text-white p-4 flex justify-between items-center;
+  background-color: rgb(77 213 40);
   h1 {
     @apply text-2xl font-bold;
   }
@@ -16,4 +18,11 @@
 
 img {
   width: 200px !important;
+}
+
+.btn-poke {
+  font-family: "Righteous", sans-serif;
+  background-color: rgb(4 94 160);
+  color: rgb(255 204 1);
+
 }
