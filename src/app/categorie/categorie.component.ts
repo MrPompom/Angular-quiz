@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-categorie',
@@ -7,16 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategorieComponent implements OnInit {
 
-  categories: { id: string, name: string }[] = [
-    { id: '1', name: 'Pokemon' },
-    { id: '2', name: 'Yu-Gi-Oh' },
-    { id: '3', name: 'League of Legends' },
-    { id: '4', name: 'Satisfactory' }
+  categories: { id: number, name: string }[] = [
+    { id: 1, name: 'Pokemon' },
+    { id: 2, name: 'Yu-Gi-Oh' },
+    { id: 3, name: 'League of Legends' },
+    { id: 4, name: 'Satisfactory' }
   ];
-  filteredCategories: { id: string, name: string }[] = [];
+  filteredCategories: { id: number, name: string }[] = [];
   searchQuery: string = '';
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.filteredCategories = this.categories;
@@ -31,5 +32,9 @@ export class CategorieComponent implements OnInit {
     } else {
       this.filteredCategories = this.categories
     }
+  }
+
+  goToQuizz(id: number) {
+    this.router.navigate(['/quiz', id]);
   }
 }
