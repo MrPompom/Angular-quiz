@@ -92,202 +92,202 @@
   {
     "id": "1",
     "questionLabel": "Quel est le type de Pokémon de Pikachu?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "2",
     "questionLabel": "Combien de générations de Pokémon existent?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "3",
     "questionLabel": "Quel est le Pokémon légendaire de la première génération?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "4",
     "questionLabel": "Quel est le Pokémon numéro 1 dans le Pokédex?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "5",
     "questionLabel": "Quel est le Pokémon de type feu de la première génération?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "6",
     "questionLabel": "Quel est le Pokémon de type eau de la première génération?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "7",
     "questionLabel": "Quel est le Pokémon de type plante de la première génération?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "8",
     "questionLabel": "Quel est le Pokémon de type électrique de la première génération?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "9",
     "questionLabel": "Quel est le Pokémon de type dragon de la première génération?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "10",
     "questionLabel": "Quel est le Pokémon de type psy de la première génération?",
-    "categoryId": "1"
+    "categoryId": 1
   },
   {
     "id": "11",
     "questionLabel": "Quel est le nom du protagoniste principal de Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "12",
     "questionLabel": "Quel est le nom du rival de Yugi dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "13",
     "questionLabel": "Quel est le nom du dragon légendaire dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "14",
     "questionLabel": "Quel est le nom de la carte la plus puissante dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "15",
     "questionLabel": "Quel est le nom du dieu égyptien dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "16",
     "questionLabel": "Quel est le nom du monstre de Yugi dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "17",
     "questionLabel": "Quel est le nom du monstre de Kaiba dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "18",
     "questionLabel": "Quel est le nom du monstre de Joey dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "19",
     "questionLabel": "Quel est le nom du monstre de Téa dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "20",
     "questionLabel": "Quel est le nom du monstre de Bakura dans Yu-Gi-Oh?",
-    "categoryId": "2"
+    "categoryId": 2
   },
   {
     "id": "21",
     "questionLabel": "Quel est le nom du champion de League of Legends qui utilise un arc?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "22",
     "questionLabel": "Quel est le nom du champion de League of Legends qui utilise une épée?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "23",
     "questionLabel": "Quel est le nom du champion de League of Legends qui utilise la magie?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "24",
     "questionLabel": "Quel est le nom du champion de League of Legends qui est un tank?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "25",
     "questionLabel": "Quel est le nom du champion de League of Legends qui est un assassin?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "26",
     "questionLabel": "Quel est le nom du champion de League of Legends qui est un support?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "27",
     "questionLabel": "Quel est le nom du champion de League of Legends qui est un ADC?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "28",
     "questionLabel": "Quel est le nom du champion de League of Legends qui est un mage?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "29",
     "questionLabel": "Quel est le nom du champion de League of Legends qui est un bruiser?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "30",
     "questionLabel": "Quel est le nom du champion de League of Legends qui est un jungler?",
-    "categoryId": "3"
+    "categoryId": 3
   },
   {
     "id": "31",
     "questionLabel": "Quel est le but du jeu Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "32",
     "questionLabel": "Quel est le nom de la planète dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "33",
     "questionLabel": "Quel est le nom de la ressource de base dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "34",
     "questionLabel": "Quel est le nom de la machine qui extrait les ressources dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "35",
     "questionLabel": "Quel est le nom de la machine qui transforme les ressources dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "36",
     "questionLabel": "Quel est le nom de la machine qui transporte les ressources dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "37",
     "questionLabel": "Quel est le nom de la machine qui stocke les ressources dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "38",
     "questionLabel": "Quel est le nom de la machine qui produit de l'énergie dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "39",
     "questionLabel": "Quel est le nom de la machine qui assemble les produits dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   },
   {
     "id": "40",
     "questionLabel": "Quel est le nom de la machine qui fabrique les produits finis dans Satisfactory?",
-    "categoryId": "4"
+    "categoryId": 4
   }
 ],
 "answers": [

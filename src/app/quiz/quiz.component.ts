@@ -10,7 +10,7 @@ import { QuizService } from "../shared/services/quiz.service";
 export class QuizComponent implements OnInit {
   isQuizFinished = this.quizService.isQuizFinished;
   playerName = '';
-  quizId: number | null = null;
+  quizId: number = 0;
 
   constructor(
     private quizService: QuizService,
