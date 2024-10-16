@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { QuizService } from '../shared/services/quiz.service';
 import { Router } from "@angular/router";
 
 @Component({
@@ -8,19 +9,22 @@ import { Router } from "@angular/router";
 })
 export class CategorieComponent implements OnInit {
 
-  categories: { id: number, name: string }[] = [
-    { id: 1, name: 'Pokemon' },
-    { id: 2, name: 'Yu-Gi-Oh' },
-    { id: 3, name: 'League of Legends' },
-    { id: 4, name: 'Satisfactory' }
-  ];
-  filteredCategories: { id: number, name: string }[] = [];
+  filteredCategories: { id: string, name: string }[] = [];
+  categories: any[] = this.quizService.categorieList;
   searchQuery: string = '';
 
-  constructor(private router: Router) { }
+  // categories: { id: number, name: string }[] = [
+  //   { id: 1, name: 'Pokemon' },
+  //   { id: 2, name: 'Yu-Gi-Oh' },
+  //   { id: 3, name: 'League of Legends' },
+  //   { id: 4, name: 'Satisfactory' }
+  // ];
+  constructor(private router: Router, private quizService: QuizService) { }
 
   ngOnInit() {
+    this.quizService.getQuizCategories();
     this.filteredCategories = this.categories;
+    console.log(this.categories);
 
   }
 

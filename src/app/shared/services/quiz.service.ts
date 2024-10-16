@@ -53,7 +53,7 @@ export class QuizService {
     });
   }
 
-  getQuizCategorie() {
+  getQuizCategories() {
     this.http.get('http://localhost:3000/categories').subscribe((categories: any) => {
       for (const category of categories) {
           this.categorieList.push({

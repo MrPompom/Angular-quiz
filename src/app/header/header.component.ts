@@ -14,7 +14,6 @@ export class HeaderComponent {
   logout() {
     this.authService.logout();
   }
-
   
   goToHome() {
     this.router.navigate(['/']);
