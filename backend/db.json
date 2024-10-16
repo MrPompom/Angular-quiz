@@ -71,19 +71,19 @@
   ],
   "categories": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Pokemon"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Yu-Gi-Oh"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "League of Legends"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Satisfactory"
     }
   ]
