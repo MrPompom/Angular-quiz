@@ -9,27 +9,17 @@ import { Router } from "@angular/router";
 })
 export class CategorieComponent implements OnInit {
 
-  // categories: { id: string, name: string }[] = [
-  //   { id: '1', name: 'Pokemon' },
-  //   { id: '2', name: 'Yu-Gi-Oh' },
-  //   { id: '3', name: 'League of Legends' },
-  //   { id: '4', name: 'Satisfactory' }
-  // ];
   filteredCategories: { id: string, name: string }[] = [];
   categories: any[] = this.quizService.categorieList;
   searchQuery: string = '';
 
-  constructor(private quizService: QuizService) { }
-  categories: { id: number, name: string }[] = [
-    { id: 1, name: 'Pokemon' },
-    { id: 2, name: 'Yu-Gi-Oh' },
-    { id: 3, name: 'League of Legends' },
-    { id: 4, name: 'Satisfactory' }
-  ];
-  filteredCategories: { id: number, name: string }[] = [];
-  searchQuery: string = '';
-
-  constructor(private router: Router) { }
+  // categories: { id: number, name: string }[] = [
+  //   { id: 1, name: 'Pokemon' },
+  //   { id: 2, name: 'Yu-Gi-Oh' },
+  //   { id: 3, name: 'League of Legends' },
+  //   { id: 4, name: 'Satisfactory' }
+  // ];
+  constructor(private router: Router, private quizService: QuizService) { }
 
   ngOnInit() {
     this.quizService.getQuizCategories();
