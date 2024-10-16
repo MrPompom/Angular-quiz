@@ -1,568 +1,4 @@
 {
-  "questions": [
-    {
-      "id": "1",
-      "questionLabel": "What is a component in Angular?"
-    },
-    {
-      "id": "2",
-      "questionLabel": "Explain the purpose of the NgModule in Angular."
-    },
-    {
-      "id": "3",
-      "questionLabel": "How do you create a new Angular application?"
-    },
-    {
-      "id": "4",
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
-    },
-    {
-      "id": "5",
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
-    },
-    {
-      "id": "6",
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
-    },
-    {
-      "id": "7",
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
-    },
-    {
-      "id": "8",
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
-    },
-    {
-      "id": "9",
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
-    },
-    {
-      "id": "10",
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
-    },
-    {
-      "id": "11",
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
-    },
-    {
-      "id": "12",
-      "questionLabel": "What is a service in Angular, and when should you use it?"
-    },
-    {
-      "id": "13",
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
-    },
-    {
-      "id": "14",
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
-    },
-    {
-      "id": "15",
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
-    },
-    {
-      "id": "16",
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
-    },
-    {
-      "id": "17",
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
-    },
-    {
-      "id": "18",
-      "questionLabel": "How can you handle HTTP requests in Angular?"
-    },
-    {
-      "id": "19",
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
-    },
-    {
-      "id": "20",
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
-    }
-  ],
-  "answers": [
-    {
-      "questionId": 1,
-      "answerLabel": "A reusable building block for the user interface",
-      "isCorrect": true,
-      "id": "cbb3"
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A style in Angular",
-      "isCorrect": false,
-      "id": "4c0a"
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false,
-      "id": "1e70"
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A routing configuration",
-      "isCorrect": false,
-      "id": "c90f"
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
-      "isCorrect": true,
-      "id": "2fdf"
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false,
-      "id": "d082"
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false,
-      "id": "0844"
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false,
-      "id": "575a"
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
-      "isCorrect": true,
-      "id": "321e"
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
-      "isCorrect": false,
-      "id": "34c6"
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using pure JavaScript.",
-      "isCorrect": false,
-      "id": "2629"
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using Python.",
-      "isCorrect": false,
-      "id": "8464"
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
-      "isCorrect": true,
-      "id": "848e"
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is used for creating components.",
-      "isCorrect": false,
-      "id": "d7b5"
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is a routing feature.",
-      "isCorrect": false,
-      "id": "5021"
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is only available for services.",
-      "isCorrect": false,
-      "id": "1c46"
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
-      "isCorrect": true,
-      "id": "7801"
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
-      "isCorrect": false,
-      "id": "5842"
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
-      "isCorrect": false,
-      "id": "f280"
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false,
-      "id": "cc03"
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
-      "isCorrect": true,
-      "id": "1322"
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining component styles.",
-      "isCorrect": false,
-      "id": "f68f"
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining routes.",
-      "isCorrect": false,
-      "id": "3641"
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false,
-      "id": "5120"
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
-      "isCorrect": true,
-      "id": "7c8d"
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a component in Angular applications.",
-      "isCorrect": false,
-      "id": "170b"
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false,
-      "id": "d9e7"
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "62b2"
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
-      "isCorrect": true,
-      "id": "4a9f"
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a component.",
-      "isCorrect": false,
-      "id": "57a7"
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a service.",
-      "isCorrect": false,
-      "id": "ee98"
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a module.",
-      "isCorrect": false,
-      "id": "7333"
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is a library for navigating between views and components.",
-      "isCorrect": true,
-      "id": "7703"
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "550d"
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false,
-      "id": "0a3c"
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false,
-      "id": "1091"
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
-      "isCorrect": true,
-      "id": "1a0c"
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
-      "isCorrect": false,
-      "id": "0477"
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false,
-      "id": "8f2b"
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false,
-      "id": "51da"
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
-      "isCorrect": true,
-      "id": "129e"
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular is not possible.",
-      "isCorrect": false,
-      "id": "ceb5"
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
-      "isCorrect": false,
-      "id": "510b"
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
-      "isCorrect": false,
-      "id": "ef5b"
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
-      "isCorrect": true,
-      "id": "021f"
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of component.",
-      "isCorrect": false,
-      "id": "e643"
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of directive.",
-      "isCorrect": false,
-      "id": "65da"
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of module.",
-      "isCorrect": false,
-      "id": "0df5"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
-      "isCorrect": true,
-      "id": "d7aa"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for defining routes.",
-      "isCorrect": false,
-      "id": "50a4"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "26dd"
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for event binding.",
-      "isCorrect": false,
-      "id": "bec4"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
-      "isCorrect": true,
-      "id": "6d3b"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for data binding.",
-      "isCorrect": false,
-      "id": "5188"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for routing configuration.",
-      "isCorrect": false,
-      "id": "4a40"
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "c4ef"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
-      "isCorrect": true,
-      "id": "03f5"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
-      "isCorrect": false,
-      "id": "f045"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
-      "isCorrect": false,
-      "id": "c51c"
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
-      "isCorrect": false,
-      "id": "20b8"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
-      "isCorrect": true,
-      "id": "2f8f"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for routing configuration.",
-      "isCorrect": false,
-      "id": "fec1"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for dependency injection.",
-      "isCorrect": false,
-      "id": "a5ac"
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "a49b"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
-      "isCorrect": true,
-      "id": "618c"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for defining routes.",
-      "isCorrect": false,
-      "id": "d81e"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for event binding.",
-      "isCorrect": false,
-      "id": "62e6"
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for dependency injection.",
-      "isCorrect": false,
-      "id": "aa2c"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
-      "isCorrect": true,
-      "id": "f80f"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
-      "isCorrect": false,
-      "id": "17ae"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
-      "isCorrect": false,
-      "id": "4bed"
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
-      "isCorrect": false,
-      "id": "360f"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
-      "isCorrect": true,
-      "id": "a6a0"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for defining routes.",
-      "isCorrect": false,
-      "id": "bd20"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for event binding.",
-      "isCorrect": false,
-      "id": "31e3"
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for dependency injection.",
-      "isCorrect": false,
-      "id": "def0"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
-      "isCorrect": true,
-      "id": "0c0a"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
-      "isCorrect": false,
-      "id": "18ad"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for event binding.",
-      "isCorrect": false,
-      "id": "73ce"
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
-      "isCorrect": false,
-      "id": "9994"
-    }
-  ],
   "users": [
     {
       "id": "1",
@@ -632,5 +68,1189 @@
       "password": "test",
       "confirmPassword": "rrrrr"
     }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Pokemon"
+    },
+    {
+      "id": "2",
+      "name": "Yu-Gi-Oh"
+    },
+    {
+      "id": "3",
+      "name": "League of Legends"
+    },
+    {
+      "id": "4",
+      "name": "Satisfactory"
+    }
   ]
+,
+"questions": [
+  {
+    "id": "1",
+    "questionLabel": "Quel est le type de Pokémon de Pikachu?",
+    "categoryId": "1"
+  },
+  {
+    "id": "2",
+    "questionLabel": "Combien de générations de Pokémon existent?",
+    "categoryId": "1"
+  },
+  {
+    "id": "3",
+    "questionLabel": "Quel est le Pokémon légendaire de la première génération?",
+    "categoryId": "1"
+  },
+  {
+    "id": "4",
+    "questionLabel": "Quel est le Pokémon numéro 1 dans le Pokédex?",
+    "categoryId": "1"
+  },
+  {
+    "id": "5",
+    "questionLabel": "Quel est le Pokémon de type feu de la première génération?",
+    "categoryId": "1"
+  },
+  {
+    "id": "6",
+    "questionLabel": "Quel est le Pokémon de type eau de la première génération?",
+    "categoryId": "1"
+  },
+  {
+    "id": "7",
+    "questionLabel": "Quel est le Pokémon de type plante de la première génération?",
+    "categoryId": "1"
+  },
+  {
+    "id": "8",
+    "questionLabel": "Quel est le Pokémon de type électrique de la première génération?",
+    "categoryId": "1"
+  },
+  {
+    "id": "9",
+    "questionLabel": "Quel est le Pokémon de type dragon de la première génération?",
+    "categoryId": "1"
+  },
+  {
+    "id": "10",
+    "questionLabel": "Quel est le Pokémon de type psy de la première génération?",
+    "categoryId": "1"
+  },
+  {
+    "id": "11",
+    "questionLabel": "Quel est le nom du protagoniste principal de Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "12",
+    "questionLabel": "Quel est le nom du rival de Yugi dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "13",
+    "questionLabel": "Quel est le nom du dragon légendaire dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "14",
+    "questionLabel": "Quel est le nom de la carte la plus puissante dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "15",
+    "questionLabel": "Quel est le nom du dieu égyptien dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "16",
+    "questionLabel": "Quel est le nom du monstre de Yugi dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "17",
+    "questionLabel": "Quel est le nom du monstre de Kaiba dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "18",
+    "questionLabel": "Quel est le nom du monstre de Joey dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "19",
+    "questionLabel": "Quel est le nom du monstre de Téa dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "20",
+    "questionLabel": "Quel est le nom du monstre de Bakura dans Yu-Gi-Oh?",
+    "categoryId": "2"
+  },
+  {
+    "id": "21",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui utilise un arc?",
+    "categoryId": "3"
+  },
+  {
+    "id": "22",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui utilise une épée?",
+    "categoryId": "3"
+  },
+  {
+    "id": "23",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui utilise la magie?",
+    "categoryId": "3"
+  },
+  {
+    "id": "24",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui est un tank?",
+    "categoryId": "3"
+  },
+  {
+    "id": "25",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui est un assassin?",
+    "categoryId": "3"
+  },
+  {
+    "id": "26",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui est un support?",
+    "categoryId": "3"
+  },
+  {
+    "id": "27",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui est un ADC?",
+    "categoryId": "3"
+  },
+  {
+    "id": "28",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui est un mage?",
+    "categoryId": "3"
+  },
+  {
+    "id": "29",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui est un bruiser?",
+    "categoryId": "3"
+  },
+  {
+    "id": "30",
+    "questionLabel": "Quel est le nom du champion de League of Legends qui est un jungler?",
+    "categoryId": "3"
+  },
+  {
+    "id": "31",
+    "questionLabel": "Quel est le but du jeu Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "32",
+    "questionLabel": "Quel est le nom de la planète dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "33",
+    "questionLabel": "Quel est le nom de la ressource de base dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "34",
+    "questionLabel": "Quel est le nom de la machine qui extrait les ressources dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "35",
+    "questionLabel": "Quel est le nom de la machine qui transforme les ressources dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "36",
+    "questionLabel": "Quel est le nom de la machine qui transporte les ressources dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "37",
+    "questionLabel": "Quel est le nom de la machine qui stocke les ressources dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "38",
+    "questionLabel": "Quel est le nom de la machine qui produit de l'énergie dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "39",
+    "questionLabel": "Quel est le nom de la machine qui assemble les produits dans Satisfactory?",
+    "categoryId": "4"
+  },
+  {
+    "id": "40",
+    "questionLabel": "Quel est le nom de la machine qui fabrique les produits finis dans Satisfactory?",
+    "categoryId": "4"
+  }
+],
+"answers": [
+  {
+    "questionId": 1,
+    "answerLabel": "Électrique",
+    "isCorrect": true,
+    "id": "a1"
+  },
+  {
+    "questionId": 1,
+    "answerLabel": "Feu",
+    "isCorrect": false,
+    "id": "a2"
+  },
+  {
+    "questionId": 1,
+    "answerLabel": "Eau",
+    "isCorrect": false,
+    "id": "a3"
+  },
+  {
+    "questionId": 1,
+    "answerLabel": "Plante",
+    "isCorrect": false,
+    "id": "a4"
+  },
+  {
+    "questionId": 2,
+    "answerLabel": "8",
+    "isCorrect": true,
+    "id": "b1"
+  },
+  {
+    "questionId": 2,
+    "answerLabel": "7",
+    "isCorrect": false,
+    "id": "b2"
+  },
+  {
+    "questionId": 2,
+    "answerLabel": "6",
+    "isCorrect": false,
+    "id": "b3"
+  },
+  {
+    "questionId": 2,
+    "answerLabel": "9",
+    "isCorrect": false,
+    "id": "b4"
+  },
+  {
+    "questionId": 3,
+    "answerLabel": "Mewtwo",
+    "isCorrect": true,
+    "id": "c1"
+  },
+  {
+    "questionId": 3,
+    "answerLabel": "Articuno",
+    "isCorrect": false,
+    "id": "c2"
+  },
+  {
+    "questionId": 3,
+    "answerLabel": "Zapdos",
+    "isCorrect": false,
+    "id": "c3"
+  },
+  {
+    "questionId": 3,
+    "answerLabel": "Moltres",
+    "isCorrect": false,
+    "id": "c4"
+  },
+  {
+    "questionId": 4,
+    "answerLabel": "Bulbizarre",
+    "isCorrect": true,
+    "id": "d1"
+  },
+  {
+    "questionId": 4,
+    "answerLabel": "Pikachu",
+    "isCorrect": false,
+    "id": "d2"
+  },
+  {
+    "questionId": 4,
+    "answerLabel": "Salamèche",
+    "isCorrect": false,
+    "id": "d3"
+  },
+  {
+    "questionId": 4,
+    "answerLabel": "Carapuce",
+    "isCorrect": false,
+    "id": "d4"
+  },
+  {
+    "questionId": 5,
+    "answerLabel": "Salamèche",
+    "isCorrect": true,
+    "id": "e1"
+  },
+  {
+    "questionId": 5,
+    "answerLabel": "Ponyta",
+    "isCorrect": false,
+    "id": "e2"
+  },
+  {
+    "questionId": 5,
+    "answerLabel": "Magmar",
+    "isCorrect": false,
+    "id": "e3"
+  },
+  {
+    "questionId": 5,
+    "answerLabel": "Goupix",
+    "isCorrect": false,
+    "id": "e4"
+  },
+  {
+    "questionId": 6,
+    "answerLabel": "Carapuce",
+    "isCorrect": true,
+    "id": "f1"
+  },
+  {
+    "questionId": 6,
+    "answerLabel": "Stari",
+    "isCorrect": false,
+    "id": "f2"
+  },
+  {
+    "questionId": 6,
+    "answerLabel": "Lokhlass",
+    "isCorrect": false,
+    "id": "f3"
+  },
+  {
+    "questionId": 6,
+    "answerLabel": "Tentacool",
+    "isCorrect": false,
+    "id": "f4"
+  },
+  {
+    "questionId": 7,
+    "answerLabel": "Bulbizarre",
+    "isCorrect": true,
+    "id": "g1"
+  },
+  {
+    "questionId": 7,
+    "answerLabel": "Mystherbe",
+    "isCorrect": false,
+    "id": "g2"
+  },
+  {
+    "questionId": 7,
+    "answerLabel": "Rafflesia",
+    "isCorrect": false,
+    "id": "g3"
+  },
+  {
+    "questionId": 7,
+    "answerLabel": "Paras",
+    "isCorrect": false,
+    "id": "g4"
+  },
+  {
+    "questionId": 8,
+    "answerLabel": "Pikachu",
+    "isCorrect": true,
+    "id": "h1"
+  },
+  {
+    "questionId": 8,
+    "answerLabel": "Voltorbe",
+    "isCorrect": false,
+    "id": "h2"
+  },
+  {
+    "questionId": 8,
+    "answerLabel": "Magnéti",
+    "isCorrect": false,
+    "id": "h3"
+  },
+  {
+    "questionId": 8,
+    "answerLabel": "Électrode",
+    "isCorrect": false,
+    "id": "h4"
+  },
+  {
+    "questionId": 9,
+    "answerLabel": "Dracolosse",
+    "isCorrect": true,
+    "id": "i1"
+  },
+  {
+    "questionId": 9,
+    "answerLabel": "Draco",
+    "isCorrect": false,
+    "id": "i2"
+  },
+  {
+    "questionId": 9,
+    "answerLabel": "Minidraco",
+    "isCorrect": false,
+    "id": "i3"
+  },
+  {
+    "questionId": 9,
+    "answerLabel": "Drattak",
+    "isCorrect": false,
+    "id": "i4"
+  },
+{
+  "questionId": 10,
+  "answerLabel": "Alakazam",
+  "isCorrect": true,
+  "id": "v1"
+},
+{
+  "questionId": 10,
+  "answerLabel": "Mewtwo",
+  "isCorrect": false,
+  "id": "v2"
+},
+{
+  "questionId": 10,
+  "answerLabel": "Jynx",
+  "isCorrect": false,
+  "id": "v3"
+},
+{
+  "questionId": 10,
+  "answerLabel": "Hypno",
+  "isCorrect": false,
+  "id": "v4"
+},
+{
+  "questionId": 11,
+  "answerLabel": "Yugi Muto",
+  "isCorrect": true,
+  "id": "w1"
+},
+{
+  "questionId": 11,
+  "answerLabel": "Seto Kaiba",
+  "isCorrect": false,
+  "id": "w2"
+},
+{
+  "questionId": 11,
+  "answerLabel": "Joey Wheeler",
+  "isCorrect": false,
+  "id": "w3"
+},
+{
+  "questionId": 11,
+  "answerLabel": "Bakura",
+  "isCorrect": false,
+  "id": "w4"
+},
+{
+  "questionId": 12,
+  "answerLabel": "Seto Kaiba",
+  "isCorrect": true,
+  "id": "x1"
+},
+{
+  "questionId": 12,
+  "answerLabel": "Joey Wheeler",
+  "isCorrect": false,
+  "id": "x2"
+},
+{
+  "questionId": 12,
+  "answerLabel": "Bakura",
+  "isCorrect": false,
+  "id": "x3"
+},
+{
+  "questionId": 12,
+  "answerLabel": "Marik",
+  "isCorrect": false,
+  "id": "x4"
+},
+{
+  "questionId": 13,
+  "answerLabel": "Blue-Eyes White Dragon",
+  "isCorrect": true,
+  "id": "y1"
+},
+{
+  "questionId": 13,
+  "answerLabel": "Red-Eyes Black Dragon",
+  "isCorrect": false,
+  "id": "y2"
+},
+{
+  "questionId": 13,
+  "answerLabel": "Dark Magician",
+  "isCorrect": false,
+  "id": "y3"
+},
+{
+  "questionId": 13,
+  "answerLabel": "Exodia",
+  "isCorrect": false,
+  "id": "y4"
+},
+{
+  "questionId": 14,
+  "answerLabel": "Exodia",
+  "isCorrect": true,
+  "id": "z1"
+},
+{
+  "questionId": 14,
+  "answerLabel": "Blue-Eyes White Dragon",
+  "isCorrect": false,
+  "id": "z2"
+},
+{
+  "questionId": 14,
+  "answerLabel": "Dark Magician",
+  "isCorrect": false,
+  "id": "z3"
+},
+{
+  "questionId": 14,
+  "answerLabel": "Red-Eyes Black Dragon",
+  "isCorrect": false,
+  "id": "z4"
+},
+{
+  "questionId": 15,
+  "answerLabel": "Slifer the Sky Dragon",
+  "isCorrect": true,
+  "id": "aa1"
+},
+{
+  "questionId": 15,
+  "answerLabel": "Obelisk the Tormentor",
+  "isCorrect": false,
+  "id": "aa2"
+},
+{
+  "questionId": 15,
+  "answerLabel": "The Winged Dragon of Ra",
+  "isCorrect": false,
+  "id": "aa3"
+},
+{
+  "questionId": 15,
+  "answerLabel": "Exodia",
+  "isCorrect": false,
+  "id": "aa4"
+},
+{
+  "questionId": 16,
+  "answerLabel": "Dark Magician",
+  "isCorrect": true,
+  "id": "bb1"
+},
+{
+  "questionId": 16,
+  "answerLabel": "Blue-Eyes White Dragon",
+  "isCorrect": false,
+  "id": "bb2"
+},
+{
+  "questionId": 16,
+  "answerLabel": "Red-Eyes Black Dragon",
+  "isCorrect": false,
+  "id": "bb3"
+},
+{
+  "questionId": 16,
+  "answerLabel": "Summoned Skull",
+  "isCorrect": false,
+  "id": "bb4"
+},
+{
+  "questionId": 17,
+  "answerLabel": "Blue-Eyes White Dragon",
+  "isCorrect": true,
+  "id": "cc1"
+},
+{
+  "questionId": 17,
+  "answerLabel": "Dark Magician",
+  "isCorrect": false,
+  "id": "cc2"
+},
+{
+  "questionId": 17,
+  "answerLabel": "Red-Eyes Black Dragon",
+  "isCorrect": false,
+  "id": "cc3"
+},
+{
+  "questionId": 17,
+  "answerLabel": "Obelisk the Tormentor",
+  "isCorrect": false,
+  "id": "cc4"
+},
+{
+  "questionId": 18,
+  "answerLabel": "Red-Eyes Black Dragon",
+  "isCorrect": true,
+  "id": "dd1"
+},
+{
+  "questionId": 18,
+  "answerLabel": "Blue-Eyes White Dragon",
+  "isCorrect": false,
+  "id": "dd2"
+},
+{
+  "questionId": 18,
+  "answerLabel": "Dark Magician",
+  "isCorrect": false,
+  "id": "dd3"
+},
+{
+  "questionId": 18,
+  "answerLabel": "Jinzo",
+  "isCorrect": false,
+  "id": "dd4"
+},
+{
+  "questionId": 19,
+  "answerLabel": "Dark Magician Girl",
+  "isCorrect": true,
+  "id": "ee1"
+},
+{
+  "questionId": 19,
+  "answerLabel": "Blue-Eyes White Dragon",
+  "isCorrect": false,
+  "id": "ee2"
+},
+{
+  "questionId": 19,
+  "answerLabel": "Red-Eyes Black Dragon",
+  "isCorrect": false,
+  "id": "ee3"
+},
+{
+  "questionId": 19,
+  "answerLabel": "Magician of Faith",
+  "isCorrect": false,
+  "id": "ee4"
+},
+  {
+    "questionId": 20,
+    "answerLabel": "Zorc Necrophades",
+    "isCorrect": true,
+    "id": "k1"
+  },
+  {
+    "questionId": 20,
+    "answerLabel": "Dark Magician",
+    "isCorrect": false,
+    "id": "k2"
+  },
+  {
+    "questionId": 20,
+    "answerLabel": "Blue-Eyes White Dragon",
+    "isCorrect": false,
+    "id": "k3"
+  },
+  {
+    "questionId": 20,
+    "answerLabel": "Red-Eyes Black Dragon",
+    "isCorrect": false,
+    "id": "k4"
+  },
+  {
+    "questionId": 21,
+    "answerLabel": "Ashe",
+    "isCorrect": true,
+    "id": "l1"
+  },
+  {
+    "questionId": 21,
+    "answerLabel": "Vayne",
+    "isCorrect": false,
+    "id": "l2"
+  },
+  {
+    "questionId": 21,
+    "answerLabel": "Jhin",
+    "isCorrect": false,
+    "id": "l3"
+  },
+  {
+    "questionId": 21,
+    "answerLabel": "Caitlyn",
+    "isCorrect": false,
+    "id": "l4"
+  },
+  {
+    "questionId": 22,
+    "answerLabel": "Garen",
+    "isCorrect": true,
+    "id": "m1"
+  },
+  {
+    "questionId": 22,
+    "answerLabel": "Yasuo",
+    "isCorrect": false,
+    "id": "m2"
+  },
+  {
+    "questionId": 22,
+    "answerLabel": "Fiora",
+    "isCorrect": false,
+    "id": "m3"
+  },
+  {
+    "questionId": 22,
+    "answerLabel": "Riven",
+    "isCorrect": false,
+    "id": "m4"
+  },
+  {
+    "questionId": 23,
+    "answerLabel": "Lux",
+    "isCorrect": true,
+    "id": "n1"
+  },
+  {
+    "questionId": 23,
+    "answerLabel": "Ryze",
+    "isCorrect": false,
+    "id": "n2"
+  },
+  {
+    "questionId": 23,
+    "answerLabel": "Annie",
+    "isCorrect": false,
+    "id": "n3"
+  },
+  {
+    "questionId": 23,
+    "answerLabel": "Ziggs",
+    "isCorrect": false,
+    "id": "n4"
+  },
+  {
+    "questionId": 24,
+    "answerLabel": "Malphite",
+    "isCorrect": true,
+    "id": "o1"
+  },
+  {
+    "questionId": 24,
+    "answerLabel": "Sion",
+    "isCorrect": false,
+    "id": "o2"
+  },
+  {
+    "questionId": 24,
+    "answerLabel": "Shen",
+    "isCorrect": false,
+    "id": "o3"
+  },
+  {
+    "questionId": 24,
+    "answerLabel": "Ornn",
+    "isCorrect": false,
+    "id": "o4"
+  },
+  {
+    "questionId": 25,
+    "answerLabel": "Zed",
+    "isCorrect": true,
+    "id": "p1"
+  },
+  {
+    "questionId": 25,
+    "answerLabel": "Kha'Zix",
+    "isCorrect": false,
+    "id": "p2"
+  },
+  {
+    "questionId": 25,
+    "answerLabel": "Talon",
+    "isCorrect": false,
+    "id": "p3"
+  },
+  {
+    "questionId": 25,
+    "answerLabel": "Akali",
+    "isCorrect": false,
+    "id": "p4"
+  },
+  {
+    "questionId": 26,
+    "answerLabel": "Thresh",
+    "isCorrect": true,
+    "id": "q1"
+  },
+  {
+    "questionId": 26,
+    "answerLabel": "Janna",
+    "isCorrect": false,
+    "id": "q2"
+  },
+  {
+    "questionId": 26,
+    "answerLabel": "Lulu",
+    "isCorrect": false,
+    "id": "q3"
+  },
+  {
+    "questionId": 26,
+    "answerLabel": "Nami",
+    "isCorrect": false,
+    "id": "q4"
+  },
+  {
+    "questionId": 27,
+    "answerLabel": "Jinx",
+    "isCorrect": true,
+    "id": "r1"
+  },
+  {
+    "questionId": 27,
+    "answerLabel": "Miss Fortune",
+    "isCorrect": false,
+    "id": "r2"
+  },
+  {
+    "questionId": 27,
+    "answerLabel": "Ezreal",
+    "isCorrect": false,
+    "id": "r3"
+  },
+  {
+    "questionId": 27,
+    "answerLabel": "Kai'Sa",
+    "isCorrect": false,
+    "id": "r4"
+  },
+  {
+    "questionId": 28,
+    "answerLabel": "Veigar",
+    "isCorrect": true,
+    "id": "s1"
+  },
+  {
+    "questionId": 28,
+    "answerLabel": "Syndra",
+    "isCorrect": false,
+    "id": "s2"
+  },
+  {
+    "questionId": 28,
+    "answerLabel": "Brand",
+    "isCorrect": false,
+    "id": "s3"
+  },
+  {
+    "questionId": 28,
+    "answerLabel": "Xerath",
+    "isCorrect": false,
+    "id": "s4"
+  },
+  {
+    "questionId": 29,
+    "answerLabel": "Darius",
+    "isCorrect": true,
+    "id": "t1"
+  },
+  {
+    "questionId": 29,
+    "answerLabel": "Illaoi",
+    "isCorrect": false,
+    "id": "t2"
+  },
+  {
+    "questionId": 29,
+    "answerLabel": "Renekton",
+    "isCorrect": false,
+    "id": "t3"
+  },
+  {
+    "questionId": 29,
+    "answerLabel": "Gnar",
+    "isCorrect": false,
+    "id": "t4"
+  },
+  {
+    "questionId": 30,
+    "answerLabel": "Lee Sin",
+    "isCorrect": true,
+    "id": "u1"
+  },
+  {
+    "questionId": 30,
+    "answerLabel": "Nidalee",
+    "isCorrect": false,
+    "id": "u2"
+  },
+  {
+    "questionId": 30,
+    "answerLabel": "Elise",
+    "isCorrect": false,
+    "id": "u3"
+  },
+  {
+    "questionId": 30,
+    "answerLabel": "Rengar",
+    "isCorrect": false,
+    "id": "u4"
+  },
+  {
+    "questionId": 31,
+    "answerLabel": "Construire des usines et automatiser la production",
+    "isCorrect": true,
+    "id": "a1"
+  },
+  {
+    "questionId": 31,
+    "answerLabel": "Explorer des donjons",
+    "isCorrect": false,
+    "id": "a2"
+  },
+  {
+    "questionId": 31,
+    "answerLabel": "Combattre des monstres",
+    "isCorrect": false,
+    "id": "a3"
+  },
+  {
+    "questionId": 31,
+    "answerLabel": "Collecter des cartes",
+    "isCorrect": false,
+    "id": "a4"
+  },
+  {
+    "questionId": 32,
+    "answerLabel": "Massage-2(A-B)b",
+    "isCorrect": true,
+    "id": "b1"
+  },
+  {
+    "questionId": 32,
+    "answerLabel": "Terra",
+    "isCorrect": false,
+    "id": "b2"
+  },
+  {
+    "questionId": 32,
+    "answerLabel": "Mars",
+    "isCorrect": false,
+    "id": "b3"
+  },
+  {
+    "questionId": 32,
+    "answerLabel": "Pandora",
+    "isCorrect": false,
+    "id": "b4"
+  },
+  {
+    "questionId": 33,
+    "answerLabel": "Minerai de fer",
+    "isCorrect": true,
+    "id": "c1"
+  },
+  {
+    "questionId": 33,
+    "answerLabel": "Cuivre",
+    "isCorrect": false,
+    "id": "c2"
+  },
+  {
+    "questionId": 33,
+    "answerLabel": "Charbon",
+    "isCorrect": false,
+    "id": "c3"
+  },
+  {
+    "questionId": 33,
+    "answerLabel": "Pétrole",
+    "isCorrect": false,
+    "id": "c4"
+  },
+  {
+    "questionId": 34,
+    "answerLabel": "Foreuse",
+    "isCorrect": true,
+    "id": "d1"
+  },
+  {
+    "questionId": 34,
+    "answerLabel": "Extracteur",
+    "isCorrect": false,
+    "id": "d2"
+  },
+  {
+    "questionId": 34,
+    "answerLabel": "Excavatrice",
+    "isCorrect": false,
+    "id": "d3"
+  },
+  {
+    "questionId": 34,
+    "answerLabel": "Perceuse",
+    "isCorrect": false,
+    "id": "d4"
+  },
+  {
+    "questionId": 35,
+    "answerLabel": "Fonderie",
+    "isCorrect": true,
+    "id": "e1"
+  },
+  {
+    "questionId": 35,
+    "answerLabel": "Usine",
+    "isCorrect": false,
+    "id": "e2"
+  },
+  {
+    "questionId": 35,
+    "answerLabel": "Raffinerie",
+    "isCorrect": false,
+    "id": "e3"
+  },
+  {
+    "questionId": 35,
+    "answerLabel": "Broyeur",
+    "isCorrect": false,
+    "id": "e4"
+  },
+  {
+    "questionId": 36,
+    "answerLabel": "Convoyeur",
+    "isCorrect": true,
+    "id": "f1"
+  },
+  {
+    "questionId": 36,
+    "answerLabel": "Transporteur",
+    "isCorrect": false,
+    "id": "f2"
+  },
+  {
+    "questionId": 36,
+    "answerLabel": "Chariot",
+    "isCorrect": false,
+    "id": "f3"
+  },
+  {
+    "questionId": 36,
+    "answerLabel": "Ascenseur",
+    "isCorrect": false,
+    "id": "f4"
+  },
+  {
+    "questionId": 37,
+    "answerLabel": "Conteneur",
+    "isCorrect": true,
+    "id": "g1"
+  },
+  {
+    "questionId": 37,
+    "answerLabel": "Réservoir",
+    "isCorrect": false,
+    "id": "g2"
+  },
+  {
+    "questionId": 37,
+    "answerLabel": "Silo",
+    "isCorrect": false,
+    "id": "g3"
+  },
+  {
+    "questionId": 37,
+    "answerLabel": "Coffre",
+    "isCorrect": false,
+    "id": "g4"
+  },
+  {
+    "questionId": 38,
+    "answerLabel": "Générateur",
+    "isCorrect": true,
+    "id": "h1"
+  },
+  {
+    "questionId": 38,
+    "answerLabel": "Réacteur",
+    "isCorrect": false,
+    "id": "h2"
+  },
+  {
+    "questionId": 38,
+    "answerLabel": "Turbine",
+    "isCorrect": false,
+    "id": "h3"
+  },
+  {
+    "questionId": 38,
+    "answerLabel": "Panneau solaire",
+    "isCorrect": false,
+    "id": "h4"
+  },
+  {
+    "questionId": 39,
+    "answerLabel": "Assembleur",
+    "isCorrect": true,
+    "id": "i1"
+  },
+  {
+    "questionId": 39,
+    "answerLabel": "Fabricateur",
+    "isCorrect": false,
+    "id": "i2"
+  },
+  {
+    "questionId": 39,
+    "answerLabel": "Constructeur",
+    "isCorrect": false,
+    "id": "i3"
+  },
+  {
+    "questionId": 39,
+    "answerLabel": "Usine",
+    "isCorrect": false,
+    "id": "i4"
+  },
+  {
+    "questionId": 40,
+    "answerLabel": "Fabricateur",
+    "isCorrect": true,
+    "id": "j1"
+  },
+  {
+    "questionId": 40,
+    "answerLabel": "Constructeur",
+    "isCorrect": false,
+    "id": "j2"
+  },
+  {
+    "questionId": 40,
+    "answerLabel": "Assembleur",
+    "isCorrect": false,
+    "id": "j3"
+  },
+  {
+    "questionId": 40,
+    "answerLabel": "Usine",
+    "isCorrect": false,
+    "id": "j4"
+  }
+]
 }
+
