@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategorieComponent implements OnInit {
 
+  categories: string[] = ['Technology', 'Health', 'Education', 'Entertainment', 'Sports', 'Fashion'];
+  filteredCategories: string[] = [];
+  searchQuery: string = '';
+
   constructor() { }
 
   ngOnInit() {
+    this.filteredCategories = this.categories;
+
   }
 
+  filterCategories() {
+    this.filteredCategories = this.categories.filter(category =>
+      category.toLowerCase().includes(this.searchQuery.toLowerCase())
+    );
+  } 
 }

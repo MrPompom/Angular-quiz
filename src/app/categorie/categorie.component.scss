@@ -1,0 +1,61 @@
+.quiz {
+    &_title {
+      @apply text-2xl font-bold text-center mb-4;
+    }
+  
+    &_reset {
+      @apply text-center;
+  
+      button {
+        @apply my-2;
+      }
+    }
+  
+    &_categorie {
+      @apply flex flex-col items-center my-8 px-32;
+    }
+  
+    &_validation {
+      @apply flex justify-center;
+    }
+  }
+  
+
+
+  input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    outline: none;
+  
+    &:focus {
+      border-color: #5a9;  // Changement de la couleur de la bordure
+      background-color: #65adec; // Couleur de fond lors de la saisie
+      box-shadow: 0 0 8px rgba(90, 153, 90, 0.5); // Ombre douce autour de l'input
+    }
+  
+    &::placeholder {
+      color: #888;
+      font-style: italic;
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  
+    li {
+      padding: 8px;
+      background-color: #f9f9f9;
+      border-bottom: 1px solid #ddd;
+  
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+  

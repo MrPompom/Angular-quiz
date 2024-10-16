@@ -6,6 +6,7 @@ import { HttpClient } from "@angular/common/http";
 })
 export class QuizService {
   quizContent: any[] = [];
+  categorieList: any[] = [];
   playerAnswers: {questionId: number; answer: string}[] = [];
   score = 0;
   isQuizFinished = false;
@@ -48,6 +49,17 @@ export class QuizService {
               answers
           });
         });
+      }
+    });
+  }
+
+  getQuizCategorie() {
+    this.http.get('http://localhost:3000/categories').subscribe((categories: any) => {
+      for (const category of categories) {
+          this.categorieList.push({
+              id: category.id,
+              name: category.name
+          });
       }
     });
   }

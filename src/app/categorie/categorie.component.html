@@ -1,3 +1,13 @@
-<p>
-  categorie works!
-</p>
+<section>
+  <h2 class="quiz_title">Choisi une catégorie de question !</h2>
+  <section class="categorie-list">
+    
+    <section>
+      <input type="text" [(ngModel)]="searchQuery" (input)="filterCategories()" placeholder="Rechercher une categorie de questions"/>
+    </section>
+    <!-- <section class="question_container" *ngFor="let content of categorieList; let i = index">
+      <h4 class="question_label"><b>Catégoie {{ i + 1 }} :</b> {{ categorieList?.i }}</h4>
+    </section> -->
+    
+  </section>
+</section>
