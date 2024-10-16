@@ -5,9 +5,13 @@
     <section>
       <input type="text" [(ngModel)]="searchQuery" (input)="filterCategories()" placeholder="Rechercher une categorie de questions"/>
     </section>
-    <!-- <section class="question_container" *ngFor="let content of categorieList; let i = index">
-      <h4 class="question_label"><b>Catégoie {{ i + 1 }} :</b> {{ categorieList?.i }}</h4>
-    </section> -->
+    <section class="question_container" *ngFor="let content of filteredCategories; let i = index">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title"><b>Catégorie {{ i + 1 }} :</b> {{ content.name }}</h4>
+        </div>
+      </div>
+    </section>
     
   </section>
 </section>
