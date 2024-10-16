@@ -8,7 +8,7 @@
     <section class="question_container" *ngFor="let content of filteredCategories; let i = index">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title"><b>Catégorie {{ i + 1 }} :</b> {{ content.name }}</h4>
+          <h4 class="card-title" (click)="goToQuizz(content.id)"><b>Catégorie {{ i + 1 }} :</b> {{ content.name }}</h4>
         </div>
       </div>
     </section>
