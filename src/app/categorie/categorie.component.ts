@@ -24,7 +24,6 @@ export class CategorieComponent implements OnInit {
   ngOnInit() {
     this.quizService.getQuizCategories();
     this.filteredCategories = this.categories;
-    console.log(this.categories);
 
   }
 

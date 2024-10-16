@@ -40,7 +40,6 @@ export class QuizService {
   }
 
   getQuizContent(id: number) {
-    console.log("fetch", id);
     this.http.get(`http://localhost:3000/questions?categoryId=${id}`).subscribe((questions: any) => {
       for (const question of questions) {
         this.http.get(`http://localhost:3000/answers?questionId=${question.id}`).subscribe((answers: any) => {
@@ -55,6 +54,7 @@ export class QuizService {
   }
 
   getQuizCategories() {
+    this.categorieList = [];
     this.http.get('http://localhost:3000/categories').subscribe((categories: any) => {
       for (const category of categories) {
           this.categorieList.push({
